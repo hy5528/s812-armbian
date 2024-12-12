@@ -1,9 +1,0 @@
-[Unit]
-Description=BTCPay Server self-test service
-
-[Service]
-Type=oneshot
-ExecStart=/opt/btcpay/btcpay-test.sh
-
-[Install]
-WantedBy=multi-user.target
